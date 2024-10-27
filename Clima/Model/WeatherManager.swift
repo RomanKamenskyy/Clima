@@ -48,10 +48,8 @@ struct WeatherManager {
                     }
                 }
             }
-            
             //4. Start the task
             task.resume()
-            
         }
     }
     
@@ -69,9 +67,5 @@ struct WeatherManager {
             delegate?.didWithErrorFail(error: error) 
             return nil
         }
-        
     }
-    
-   
-    
 }
